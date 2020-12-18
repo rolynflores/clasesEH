@@ -1,0 +1,56 @@
+163  python list-urls.py http://www.pucp.edu.pe | grep pucp.edu.pe | cut -d "/" -f 3 | sort| uniq >dominios.txt
+  164  ls
+  165  cat dominios.txt 
+  166  cat dominios.txt 
+  167  head dominios.txt 
+  168  tail dominios.txt 
+  169  python list-urls.py http://www.pucp.edu.pe | grep pucp.edu.pe | cut -d "/" -f 3 | sort| uniq >dominios.txt 
+  170  head dominios.txt 
+  171  python list-urls.py http://www.pucp.edu.pe | grep pucp.edu.pe | cut -d "/" -f 3 | sort| uniq >dominios.txt 
+  172  nano resolver.sh
+  173  cat resolver.sh 
+  174  sh  resolver.sh 
+  175  nano resolver.sh
+  176  sh  resolver.sh 
+  177  nano resolver.sh
+  178  sh  resolver.sh 
+  179  sh  resolver.sh 
+  180  cat resolver.sh 
+  181  host adistancia.ucontinental.edu.pe
+  182  host blogs.ucontinental.edu.pe
+  183  cat /etc/resolv.conf 
+  184  nano /etc/resolv.conf 
+  185  nano resolver.sh
+  186  sh  resolver.sh 
+  187  sh  resolver.sh | cut " " -d 1,6
+  188  sh  resolver.sh | cut -d " " -f 1,6
+  189  sh  resolver.sh | grep has | cut -d " " -f 1,6 
+  190  sh  resolver.sh 
+  191  sh  resolver.sh | grep "has"
+  192  sh  resolver.sh | grep "has" | cut -d " " -f 1,4
+  193  sh  resolver.sh | grep "has" | cut -d " " -f 
+  194  sh  resolver.sh | grep "has" | cut -d " " -f 1,4
+  195  sh resolver.sh 
+  196  sh  resolver.sh | grep "has"
+  197  sh  resolver.sh | grep "has" | cut -d "" -f 1,4
+  198  sh  resolver.sh | grep "has" > resolvedr.txt
+  199  cut resolvedr.txt | cut -d "" -f 1,4
+  200  cut resolvedr.txt | cut -d " " -f 1,4
+  201  cat resolvedr.txt | cut -d " " -f 1,4
+  202  35.153.248.116
+  203  proxy-ssl-geo.webflow.com 
+  204  nano resolverip.sh
+  205  sh resolveip.sh
+  206  sh resolverip.sh
+  207  sh resolverip.sh | grep pointer
+  208  nano resolverip.sh
+  209  nano resolverip.sh
+  210  nano resolverip.sh
+  211  sh resolverip.sh
+  212  nano resolverip.sh
+  213  sh resolverip.sh
+  214  sh resolverip.sh | grep "has"
+  215  sh resolverip.sh | grep has
+  216  sh resolverip.sh
+  217  sh resolverip.sh | grep name
+  218  history
