@@ -1,0 +1,15 @@
+import re
+
+# Abre el archivo con el texto
+with open('registro.txt', 'r', encoding='utf-8') as f:
+    data = f.read()
+
+# Busca los usuarios con el formato dominio\usuario
+usuarios = re.findall(r'dominio\.com\.mx\\([^\s]+)', data)
+
+# Quita duplicados
+usuarios_unicos = sorted(set(usuarios))
+
+print("Usuarios encontrados:")
+for u in usuarios_unicos:
+    print(u)
